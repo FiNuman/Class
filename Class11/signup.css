@@ -1,0 +1,35 @@
+form{
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+
+input,button{
+  width: 20vw;
+  margin: auto;
+}
+#formid{
+  text-align: center;
+}
+
+button{
+  margin-top: 1vw;
+  border-radius: 3vw;
+  background-color: aquamarine;
+}
+#navigationtool{
+  display: flex;
+  flex-direction: row;
+}
+a{
+  margin-top: 1vw;
+  margin-left: 70vw;
+  text-decoration: none;
+  color: aqua;
+  border: 0.5vw solid red;
+  width: 7.5vw;
+  height: 3vw;
+  text-align: center;
+  border-radius: 3vw;
+  padding-top: 0.3vw;
+}
