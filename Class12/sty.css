@@ -1,0 +1,61 @@
+h1{
+  font-size: 2vw;
+  color: rgb(0, 195, 255);
+}
+form{
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  margin-top: 1.5vw;
+  font-size: 1.5vw;
+  width: 30vw;
+}
+input {
+  width: 30vw;
+  height: 2vw;
+  font-size: 1.5vw;
+  background-color: rgb(150, 141, 141);
+}
+#maleinputbox {
+  position: absolute;
+}
+#malespan,#femalespan{
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+}
+#femaleinputbox{
+  position: absolute;
+}
+button {
+  width: 9vw;
+  font-size: 1.5vw;
+  position: relative;
+  margin: 0.5vw;
+  left: 22vw;
+  top: 2vw;
+  border-radius: 3vw;
+  background-color: rgb(216, 17, 17);
+  color: aliceblue;
+  font-weight: bolder;
+}
+button:hover{
+  width: 9vw;
+  font-size: 1.5vw;
+  position: relative;
+  margin: 0.5vw;
+  left: 22.2vw;
+  top: 2.2vw;
+  border-radius: 3vw;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: bolder;
+}
+body{
+  background-image: url('a.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 50vw;
+}
